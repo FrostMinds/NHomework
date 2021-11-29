@@ -6,7 +6,11 @@ public class Car extends Vehicle {
         super(modelName, wheelsCount);
     }
 
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
+        public void checkVehicle() {
+        System.out.println("Обслуживаем " + getModelName());
+        for (int i = 0; i < getWheelsCount(); i++) {
+            System.out.println("Меняем покрышку");
+        }
+            System.out.println("Проверяем двигатель");
     }
 }
