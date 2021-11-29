@@ -14,10 +14,15 @@ public class Main {
 
         ServiceStation station = new ServiceStation();
         station.check(bicycle);
+        System.out.println("=============================");
         station.check(bicycle1);
+        System.out.println("=============================");
         station.check(car);
+        System.out.println("=============================");
         station.check(car1);
+        System.out.println("=============================");
         station.check(truck);
+        System.out.println("=============================");
         station.check(truck1);
     }
 }
