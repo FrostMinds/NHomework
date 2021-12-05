@@ -4,12 +4,12 @@ public class Main {
     public static void main(String[] args) {
 
         Vehicle[] vehicles = {
-                new Bicycle("Bicycle1", 2),
-                new Bicycle("Bicycle2", 4),
-                new Car("Car1", 4),
-                new Car("Car2", 4),
-                new Truck("Truck1", 6),
-                new Truck("Truck2", 8)
+                new Bicycle("B1", 2),
+                new Bicycle("B2",2),
+                new Car("C1", 4),
+                new Car("C2",4),
+                new Truck("T1",6),
+                new Truck("T2",6)
         };
 
         ServiceStation serviceStation = new ServiceStation();
